@@ -1,0 +1,23 @@
+{
+  "name": "nodejsrestapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.4",
+    "mongoose-timestamp": "^0.6.0",
+    "restify": "^7.5.0",
+    "restify-errors": "^6.1.1"
+  }
+}
